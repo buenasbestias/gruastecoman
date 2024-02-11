@@ -1,0 +1,194 @@
+/* ESTILOS PARA GRÚAS TECOMAN */
+
+/* BRAND COLORS 
+@brand-primary : #248758
+@brand-success : #555555
+@brand-info : #68D9A1
+@brand-warning : #535353
+*/
+
+/* GEN POP */
+
+body {
+	border-top: 10px solid #68D9A1;
+}
+
+/* HEADERS */
+
+h2, .h2 {
+    font-size: 22px;
+}
+h5 {
+	font-weight: bold;
+}
+
+/* COLOR */
+
+.light-green {
+	color: #68D9A1;
+}
+.bg-light-green {
+	background-color: #68D9A1;
+}
+.white {
+	color: #fff;
+}
+.bg-gray {
+	background-color: #535353;
+	color: #fff;
+}
+.bg-light-gray {
+	background-color: #eee;
+}
+
+/* TYPO */
+
+.txt-xs {
+	font-size: 10px;
+}
+.txt-sm {
+	font-size: 16px;
+}
+.txt-md {
+	font-size: 18px;
+}
+.txt-lg{
+	font-size: 22px;
+}
+.fa-big {
+    font-size: 40px;
+}
+
+/* POSITION */
+
+.m-top-xs {
+	margin-top: 5px;
+}
+.m-top-sm {
+	margin-top: 10px;
+}
+.m-top {
+	margin-top: 20px;
+}
+.m-top-md {
+	margin-top: 30px;
+}
+.m-top-lg {
+	margin-top: 50px;
+}
+.m-right-sm {
+	margin-right: 20px;
+}
+.minus-top {
+	margin-top: -40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.pad-foot {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.no-pad {
+	padding-left: 0;
+	padding-right: 0;
+}
+.pad-section {
+	padding: 20px 40px;
+}
+
+/* HEADER */
+
+.logo {
+	margin: 20px;
+}
+.navbar-inverse {
+    border-radius: 25px;
+}
+.nav>li>a {
+    padding: 15px 30px;
+}
+.navbar {
+	margin-bottom: 0;
+}
+
+/* FOOTER */
+
+.li-footer {
+	padding-left: 0;
+}
+.li-footer li {
+	list-style-type: none;
+}
+.li-footer li a {
+	color: white;
+}
+.li-footer li a:hover {
+	text-decoration: underline;
+}
+
+/* CONTENT */
+
+.negative-top {
+	z-index: -1;
+    position: relative;
+    top: -25px;
+}
+.experiencia {
+	padding: 20px;
+}
+.li-equipo {
+
+}
+.li-equipo li {
+	text-align: justify;
+}
+.back-img {
+	position: relative;
+	margin-top: -40px;
+	z-index: -1;
+}
+.bg-servicios {
+	background-image: url('../img/banner-home-3.jpg');
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -40px;
+    padding-top: 180px;
+}
+.bg-servicios h1, .bg-quienes h1, .bg-contacto h1, .bg-galeria h1 {
+	background-color: rgba(36,135,88,0.6);
+	color: white;
+	padding: 20px;
+	margin-top: -40px;
+	margin-bottom: 0;
+}
+.bg-quienes {
+	background-image: url('../img/banner-home-1.jpg');
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -40px;
+    padding-top: 180px;
+}
+.bg-contacto {
+	background-image: url('../img/banner-home-2.jpg');
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -40px;
+    padding-top: 180px;
+}
+.bg-galeria {
+	background-image: url('../img/banner-home-4.jpg');
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -40px;
+    padding-top: 180px;
+}
+.txt-credit {
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}

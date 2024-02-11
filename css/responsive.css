@@ -1,0 +1,61 @@
+/* lg */ 
+@media (min-width: 1200px) {
+  
+}
+
+
+
+
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+
+
+
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+
+}
+
+
+
+
+
+
+/* xs */
+@media (max-width: 767px) {
+
+   .navbar-inverse .navbar-toggle {
+      border: none;
+   }
+   .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+      border: none;
+      background-color: transparent;
+   }
+   .m-top-mov {
+      margin-top: 20px;
+   }
+   h1, .h1 {
+      font-size: 23px;
+   }
+   .bg-quienes, .bg-servicios, .bg-contacto, .bg-galeria  {
+      background-image: none;
+      margin-top: 40px;
+      padding-top: 0;
+   }
+   .bg-servicios h1, .bg-quienes h1, .bg-contacto h1, .bg-galeria h1 {
+      background-color: rgb(36, 135, 88);
+   }
+
+
+
+
+}
